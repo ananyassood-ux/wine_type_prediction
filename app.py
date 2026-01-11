@@ -24,16 +24,16 @@ st.write("Predict whether the wine is **Red** or **White** using chemmical prope
 
 fixed_acidity	= st.number_input("Value of fixed acidity", value=None)
 volatile_acidity = st.number_input("Value of volatile acidity", value=None)
-citric_acid	= st.number_input("Value of citric acid" value=None)
-residual_sugar = st.number_input("Value of residual sugar" value=None)
-chlorides	= st.number_input("Value of chlorides" value=None)
-free_sulfur_dioxide	= st.number_input("Value of free sulfur dioxide" value=None)
-total_sulfur_dioxide	= st.number_input("Value of total sulfur dioxide" value=None)
-density	= st.number_input("Value of density" value=None)
-pH	= st.number_input("Value of pH" value=None)
-sulphates	= st.number_input("Value of sulphates" value=None)
-alcohol	= st.number_input("Value of alcohol" value=None)
-quality = st.number_input("Value of quality" value=None)
+citric_acid	= st.number_input("Value of citric acid", value=None)
+residual_sugar = st.number_input("Value of residual sugar", value=None)
+chlorides	= st.number_input("Value of chlorides", value=None)
+free_sulfur_dioxide	= st.number_input("Value of free sulfur dioxide", value=None)
+total_sulfur_dioxide	= st.number_input("Value of total sulfur dioxide", value=None)
+density	= st.number_input("Value of density", value=None)
+pH	= st.number_input("Value of pH", value=None)
+sulphates	= st.number_input("Value of sulphates", value=None)
+alcohol	= st.number_input("Value of alcohol", value=None)
+quality = st.number_input("Value of quality", value=None)
 
 if st.button('Predict'):
   input_data = np.array([[fixed_acidity,
