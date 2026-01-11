@@ -50,7 +50,7 @@ if st.button('Predict'):
                           quality
                           ]])
   prediction = model.predict(input_data)[0]
-  if prediction == 1:
+  if prediction == 0:
     st.success('Red Wine')
   else:
     st.success('White Wine')
