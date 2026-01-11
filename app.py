@@ -23,7 +23,7 @@ st.title('Wine Type Classification App')
 st.write("Predict whether the wine is **Red** or **White** using chemmical properties")
 
 fixed_acidity	= st.number_input("Value of fixed acidity", value=None)
-volatile_acidity = st.number_input("Value of volatile acidity" value=None)
+volatile_acidity = st.number_input("Value of volatile acidity", value=None)
 citric_acid	= st.number_input("Value of citric acid" value=None)
 residual_sugar = st.number_input("Value of residual sugar" value=None)
 chlorides	= st.number_input("Value of chlorides" value=None)
